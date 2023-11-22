@@ -1,0 +1,12 @@
+#about-page {
+  font-family: Noto Sans;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.img {
+  max-width: 75%;
+  height: auto;
+  border-radius: 50px;
+}
