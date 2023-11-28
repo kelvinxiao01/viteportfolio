@@ -3,3 +3,12 @@
   padding: 2rem;
   text-align: center;
 }
+
+.app-container {
+  display: flex; /* Enable flexbox */
+}
+
+.main-content {
+  flex-grow: 1; /* Take up the remaining space */
+  padding: 20px; /* Optional padding */
+}

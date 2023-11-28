@@ -1,3 +1,28 @@
 .wyzantExperience {
   font-family: Noto Sans;
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1; /* Take up the remaining space */
+  padding: 20px; /* Optional padding */
+}
+
+.wyzant-desc {
+  text-align: left;
+  margin: 3rem;
+}
+
+.wyzant-pics {
+  display: flex;
+}
+
+.wyzant-pics img {
+  width: 25%;
+  height: 25%;
+}
+
+li {
+  text-align: left;
+  margin: 0.5rem;
 }
