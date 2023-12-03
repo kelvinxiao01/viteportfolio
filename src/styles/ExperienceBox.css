@@ -1,42 +1,3 @@
-.image-container {
-  position: relative;
-  /* width: 300px;
-  height: 200px; */
-  width: auto;
-  height: 75%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-container img {
-  width: 100%;
-  height: auto;
-}
-
-.text-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0); /* Start with transparent background */
-  color: white;
-  padding: 10px;
-  transition: background-color 0.5s ease, opacity 0.5s ease; /* Transition for the background */
-  opacity: 0; /* Start with hidden text */
-  pointer-events: none; /* Ignore mouse events */
-}
-
-.image-container:hover .text-overlay {
-  background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent black on hover */
-  opacity: 1; /* Show text on hover */
-}
-
 .title {
   font-size: 24px;
   font-weight: bold;
@@ -46,4 +7,42 @@
 .body {
   font-size: 16px;
   text-align: center;
+}
+
+.hover-image-text {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  /* height: 100px;
+  width: 100px; */
+  width: 50%;
+  height: auto;
+}
+
+.hover-image-text img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.hover-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-family: Noto Sans;
+}
+
+.hover-image-text:hover .hover-text {
+  opacity: 1;
 }

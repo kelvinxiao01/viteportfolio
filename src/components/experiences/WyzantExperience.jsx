@@ -7,11 +7,12 @@ import TutorCard from "../images/tutorcard.jpeg";
 import Reviews1 from "../images/tutorreviews1.jpeg";
 import Reviews2 from "../images/tutorreviews2.jpeg";
 import { Link } from "react-router-dom";
+import ReturnToHome from "../ReturnToHome";
 
 function WyzantExperience() {
   return (
     <div className="wyzantExperience">
-      <Navigation />
+      {/* <Navigation /> */}
       <div className="main-content">
         <Container>
           <Row>
@@ -38,7 +39,7 @@ function WyzantExperience() {
             I achieved and maintained a 5-star rating. Look below to see what
             people had to say about me
           </p>
-          <Link to="/">Click here to return to homepage</Link>
+          <ReturnToHome />
         </div>
         <div className="wyzant-pics">
           <img src={TutorCard} alt="" />

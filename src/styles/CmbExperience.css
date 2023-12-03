@@ -1,6 +1,7 @@
 .cmbExperience {
   font-family: Noto Sans;
   display: flex;
+  min-height: 100%;
 }
 
 .main-content {
