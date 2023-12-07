@@ -2,6 +2,7 @@
   font-family: Noto Sans;
   display: flex;
   min-height: 100%;
+  height: auto !important;
 }
 
 .main-content {
@@ -9,12 +10,34 @@
   padding: 20px; /* Optional padding */
 }
 
+.cmb-context {
+  padding: 0 5rem 0 5rem;
+}
+
 .cmb-desc {
   text-align: left;
   margin: 3rem;
 }
 
+.cmb-projects {
+  text-align: center;
+  margin: 5rem;
+}
+
+.cmb-projects-row {
+  margin: 3rem 0 3rem 0;
+}
+
+.cmb-projects-desc {
+  padding: 0 5rem 0 5rem;
+}
+
 li {
   text-align: left;
   margin: 0.5rem;
+}
+
+img {
+  width: 100%;
+  padding: 2rem 0 2rem 0;
 }

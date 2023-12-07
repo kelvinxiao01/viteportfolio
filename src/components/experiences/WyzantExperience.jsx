@@ -30,14 +30,26 @@ function WyzantExperience() {
         </Container>
         <div className="wyzant-desc">
           <p>
-            I specialized in SAT tutoring, however I also have a lot of
-            experience in tutoring math subjects, such as algebra, geometry, and
-            calculus. You can find me profile
-            <a href="https://www.wyzant.com/Tutors/Kelvin0510"> here</a>.
+            As a private SAT tutor on Wyzant, I have earned and maintained a
+            5-star rating through my commitment to excellence in teaching. My
+            approach to tutoring is highly personalized, as I strive to adapt to
+            the unique needs and learning styles of each of my students. I
+            possess a deep understanding of the SAT material, and I excel at
+            breaking down complex concepts into simpler, more digestible parts.
+            This makes the content more accessible and less intimidating for my
+            students. My patience and encouragement are key aspects of my
+            teaching style, and they have been instrumental in boosting my
+            students' confidence. This, in turn, is often reflected in their
+            improved test scores. Beyond academic instruction, I offer valuable
+            test-taking strategies and time management tips, which help my
+            students maximize their performance on the SAT. The glowing reviews
+            and consistent high ratings I receive are a testament to my
+            dedication to my students' success, making me a highly respected and
+            sought-after tutor on Wyzant.
           </p>
           <p>
-            I achieved and maintained a 5-star rating. Look below to see what
-            people had to say about me
+            You can find my profile
+            <a href="https://www.wyzant.com/Tutors/Kelvin0510"> here</a>.
           </p>
           <ReturnToHome />
         </div>
