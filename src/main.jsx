@@ -3,17 +3,21 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./components/Error.jsx";
 import CMBExperience from "./components/experiences/CMBExperience.jsx";
 import WyzantExperience from "./components/experiences/WyzantExperience.jsx";
 import About from "./components/About.jsx";
 
-const router = createBrowserRouter([
-  { path: "/", element: <App />, errorElement: <ErrorPage /> },
+const router = createHashRouter([
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <ErrorPage />,
+  },
   { path: "/cmb", element: <CMBExperience /> },
   { path: "/wyzant", element: <WyzantExperience /> },
-  { path: "/about", element: <About /> },
+  // { path: "/viteportfolio/about", element: <About /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

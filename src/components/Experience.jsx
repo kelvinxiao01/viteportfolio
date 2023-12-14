@@ -10,9 +10,9 @@ import Col from "react-bootstrap/Col";
 function Experience() {
   return (
     <div id="experience-page">
-      <ExperienceBox link="cmb" title="IT/SWE Intern" background={CMBPic} />
+      <ExperienceBox link="/cmb" title="IT/SWE Intern" background={CMBPic} />
       <ExperienceBox
-        link="wyzant"
+        link="/wyzant"
         title="Private Tutor"
         background={WyzantPic}
       />
