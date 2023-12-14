@@ -7,7 +7,7 @@ import TutorCard from "../images/tutorcard.jpeg";
 import Reviews1 from "../images/tutorreviews1.jpeg";
 import Reviews2 from "../images/tutorreviews2.jpeg";
 import { Link } from "react-router-dom";
-import ReturnToHome from "../ReturnToHome";
+import Button from "../Button";
 
 function WyzantExperience() {
   return (
@@ -51,7 +51,7 @@ function WyzantExperience() {
             You can find my profile
             <a href="https://www.wyzant.com/Tutors/Kelvin0510"> here</a>.
           </p>
-          <ReturnToHome />
+          <Button link="/" text="Go Back" />
         </div>
         <div className="wyzant-pics">
           <img src={TutorCard} alt="" />

@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 function ExperienceBox(props) {
-  const [isHovered, setIsHovered] = useState(false);
-
   return (
     <Link to={props.link}>
       <div className="hover-image-text">

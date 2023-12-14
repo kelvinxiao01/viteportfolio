@@ -31,21 +31,27 @@ function About() {
                 </Row>
               </Container>
               <p className="text-indent">
-                Hello internet surfer, welcome to my page. My name is Kelvin
-                Xiao, and I am a recent graduate of New York University double
-                majoring in mathematics and economics. I am currently an
-                IT/Software Engineering intern at China Merchants Bank. However,
-                I am always looking out for new opportunities!
+                Greetings internet surfer. Welcome! I am a proud alumnus of New
+                York University, where I honed my analytical skills with a dual
+                focus in Mathematics and Economics. This unique blend of
+                quantitative rigor and economic understanding has been the
+                cornerstone of my approach to problem-solving in the tech world.
+                Currently, I am channeling my passion for technology into a
+                dynamic role in IT at China Merchants Bank. As a specialist in
+                software engineering, I bring a comprehensive skill set in
+                full-stack and mobile development. My journey so far has been
+                about bridging the gap between sophisticated technical solutions
+                and real-world economic challenges, ensuring that every project
+                I undertake is not just technically sound, but also economically
+                viable and user-centric. This portfolio is a window into my
+                professional journey, showcasing projects that reflect my
+                commitment to excellence, innovation, and the continuous pursuit
+                of learning in the ever-evolving realm of technology. Curious
+                about me? you can learn more about my past experience down
+                below!
               </p>
 
-              <p className="text-indent">
-                In my free time you can find me venturing into the world of web
-                development, at the gym, or just reading a good book.
-              </p>
-              <p className="text-indent">
-                Curious about my past experience? You can check it out on the
-                left side! You can connect with me through my links:
-              </p>
+              <p className="text-indent"></p>
               <a
                 href="https://www.linkedin.com/in/kelvin-xiao-a5a473179/"
                 target="_blank"

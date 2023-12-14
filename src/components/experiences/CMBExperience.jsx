@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
-import ReturnToHome from "../ReturnToHome";
+import Button from "../Button";
 import ExperienceBox from "../ExperienceBox";
 import SpringbootPic from "../images/springtransparent.png";
 import WorldCheckPic from "../images/worldcheck.png";
@@ -34,10 +34,19 @@ function CMBExperience() {
         </Container>
         <div className="cmb-desc">
           <p>
-            My primary responsibilities entail creating and maintaining internal
-            IT infrastructure. Look below to see what I have worked on.
+            During my IT internship, I focused on developing and maintaining our
+            company's internal IT infrastructure, playing a key role in ensuring
+            its efficiency and reliability. My primary responsibilities included
+            the development of full-stack applications and the creation of APIs,
+            tasks that honed my skills in both front-end and back-end
+            development. This experience not only enhanced my technical
+            expertise in various programming languages and frameworks but also
+            sharpened my problem-solving abilities. As a result, I successfully
+            deployed multiple applications and contributed to the seamless
+            integration of our systems, marking a significant milestone in my
+            professional journey in the field of information technology.
           </p>
-          <ReturnToHome />
+          <Button link="/" text="Go Back" />
           <div className="cmb-projects">
             <Container>
               <Row className="cmb-projects-row">
